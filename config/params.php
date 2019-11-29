@@ -2,7 +2,7 @@
 
 return [
     // Global
-    'platform' => 'Demo',
+    'platform' => 'UCLouvain',
     'isDemo' => false,
     'demoLogin' => 'guest@opensilex.org',
     'demoPassword' => 'guest',
@@ -18,7 +18,7 @@ return [
     'dataAnalysisModule' => true,
 
     // Index
-    'indexPageSize' => 20,
+    'indexPageSize' => 50,
 
     // Forms
     'dateTimeFormatDateTimeRangePickerStandard' => 'Y-m-dTH:i:sZ',
@@ -73,10 +73,24 @@ return [
 
     // Event
     'event' => 'http://www.opensilex.org/vocabulary/oeev#Event',
-    'moveFrom' => 'http://www.opensilex.org/vocabulary/oeev#MoveFrom',
-    'moveTo' => 'http://www.opensilex.org/vocabulary/oeev#MoveTo',
+    'MoveFrom' => 'http://www.opensilex.org/vocabulary/oeev#MoveFrom',
+    'MoveTo' => 'http://www.opensilex.org/vocabulary/oeev#MoveTo',
+    'FertigationRefillWith' => 'http://www.opensilex.org/vocabulary/oeev#FertigationRefillWith',
+    'FertigationMeasurementpH' => 'http://www.opensilex.org/vocabulary/oeev#FertigationMeasurementpH',
+    'FertigationMeasurementConductivity' => 'http://www.opensilex.org/vocabulary/oeev#FertigationMeasurementConductivity',
+    'FertigationMeasurementPressure' => 'http://www.opensilex.org/vocabulary/oeev#FertigationMeasurementPressure',
+    'FertigationAutoRefillWith' => 'http://www.opensilex.org/vocabulary/oeev#AutoRefillWith',
+    'FertigationReplaceWith' => 'http://www.opensilex.org/vocabulary/oeev#FertigationReplaceWith',
+    'PartReplacementBy' => 'http://www.opensilex.org/vocabulary/oeev#PartReplacementBy',
     'AssociatedToASensor' => 'http://www.opensilex.org/vocabulary/oeev#AssociatedToASensor',
-
+    'FertigationSolutionSet' => 'http://www.opensilex.org/vocabulary/oeev#FertigationSolutionSet',
+    'FertigationCycleSet' => 'http://www.opensilex.org/vocabulary/oeev#FertigationCycleSet',
+    'ArtificialLightSpectrumSet' => 'http://www.opensilex.org/vocabulary/oeev#ArtificialLightSpectrumSet',
+    'ArtificialLightPhotoperiodSet' => 'http://www.opensilex.org/vocabulary/oeev#ArtificialLightPhotoperiodSet',
+    'GerminationPlant' => 'http://www.opensilex.org/vocabulary/oeev#GerminationPlant',
+    'GerminationGlobal' => 'http://www.opensilex.org/vocabulary/oeev#GerminationGlobal',
+    'Treatment' => 'http://www.opensilex.org/vocabulary/oeev#Treatment',
+    'SetQRList' => 'http://www.opensilex.org/vocabulary/oeev#SetQRList',
     'Provenance' => 'http://www.opensilex.org/vocabulary/oeso#Provenance',
 
     //-------- Relations
@@ -129,8 +143,17 @@ return [
     'width' => 'http://www.opensilex.org/vocabulary/oeso#width',
 
     // Event
-    'from' => 'http://www.opensilex.org/vocabulary/oeev#from',
-    'to' => 'http://www.opensilex.org/vocabulary/oeev#to',
+    'From' => 'http://www.opensilex.org/vocabulary/oeev#from',
+    'To' => 'http://www.opensilex.org/vocabulary/oeev#to',
+    'With' => 'http://www.opensilex.org/vocabulary/oeev#With',
+    'By' => 'http://www.opensilex.org/vocabulary/oeev#By',
+    'pH' => 'http://www.opensilex.org/vocabulary/oeev#pH',
+    'Set' => 'http://www.opensilex.org/vocabulary/oeev#Set',
+    'Conductivity' => 'http://www.opensilex.org/vocabulary/oeev#Conductivity',
+    'Pressure' => 'http://www.opensilex.org/vocabulary/oeev#Pressure',
+    'HasAmount' => 'http://www.opensilex.org/vocabulary/oeev#HasAmount',
+    'HasDocument' => 'http://www.opensilex.org/vocabulary/oeev#HasDocument',
+    'HasUnit' => 'http://www.opensilex.org/vocabulary/oeev#HasUnit',
     'associatedToASensor' => 'http://www.opensilex.org/vocabulary/oeev#associatedToASensor',
 
     // Image filters
